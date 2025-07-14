@@ -1,6 +1,6 @@
 #define PIN_LED 2
 #define PIN_VERDE 12
-int contador_encendidos = 0;
+//int contador_encendidos = 0;
 
 void setup() {
   Serial.begin(115200);
