@@ -28,7 +28,37 @@ void setup() {
     break; 
   }
 
-Serial.print("El día es "+ nombreDia);
+Serial.println("El día es "+ nombreDia);
+
+// ---------------------------------------------------------------
+
+int nota = 3;
+String calif = "";
+
+switch (nota) {
+case 0:
+case 1:
+case 2:
+case 3:
+case 4:
+  calif = "SUSPENSO";
+  break;
+case 5 ... 6:
+  calif = "APROBADO";
+  break;
+case 7 ... 8:
+  calif = "NOTABLE";
+  break;
+default:
+  calif = "SOBRESALIENTE";
+}
+
+if (nota >= 0 && nota <= 10){}
+Serial.println("La calificación es: " + calif);
+}
+else{
+  Serial.println("Error en la calificación")
+}
 
 }
 
