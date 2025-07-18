@@ -1,3 +1,5 @@
+#include <DNSServer.h>
+
 #include <DHT.h>
 
 #define DHTPIN 13
