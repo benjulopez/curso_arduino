@@ -1,0 +1,21 @@
+Para crear un entorno virtual con Python en Windows, puedes seguir los siguientes pasos:
+
+(tenemos el código que nos pasa Teo en la carpeta web_flask)
+
+Instalar Python
+
+
+Abre el símbolo del sistema (CMD) y navega hasta la carpeta donde deseas crear el entorno virtual.
+Ejecuta el siguiente comando para crear el entorno virtual:
+python -m venv mi_entorno
+Esto creará una carpeta llamada mi_entorno que contendrá el entorno virtual.
+
+
+Para activar el entorno virtual, ejecuta el siguiente comando:
+mi_entorno\Scripts\actívate
+
+
+Una vez activado, podrás instalar paquetes específicos para tu proyecto utilizando pip (usamos el fichero requisitos.txt que nos pasa Teo).:
+pip install -r requisitos.txt
+
+flask run -h 0.0.0.0
