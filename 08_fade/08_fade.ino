@@ -22,7 +22,7 @@ void loop() {
   analogWrite(LED_1, 160);
   delay(500); */
 
-  // El LED_1, se enciende progrosivamente y se apaga progresivamente.
+  // El LED_1, se enciende y se apaga progresivamente.
   
   for(int i = 0; i<=255; i++){
   analogWrite(LED_1ROJO, i);

@@ -13,3 +13,9 @@ https://docs.google.com/spreadsheets/d/1iTdwrhRQ2TuSLl1MlZAyIj1cAm1pzrjcJBLG_hNB
 mi repositorio en GitHub:
 
 https://github.com/benjulopez/curso_arduino
+
+-----------------------------------------------
+
+curso lenguaje de programación Python
+
+https://github.com/andelpe/curso-intro-python

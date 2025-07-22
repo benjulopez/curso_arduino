@@ -12,10 +12,16 @@ Esto creará una carpeta llamada mi_entorno que contendrá el entorno virtual.
 
 
 Para activar el entorno virtual, ejecuta el siguiente comando:
-mi_entorno\Scripts\actívate
+mi_entorno\Scripts\activate
 
 
 Una vez activado, podrás instalar paquetes específicos para tu proyecto utilizando pip (usamos el fichero requisitos.txt que nos pasa Teo).:
 pip install -r requisitos.txt
 
-flask run -h 0.0.0.0
+flask run -h 0.0.0.0 , ejecuta flask
+
+
+pip list  , vemos los paquetes que tenemos instalado
+
+
+deactivate , salimos del entorno virtual
