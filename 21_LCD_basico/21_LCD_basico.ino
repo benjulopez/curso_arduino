@@ -3,8 +3,8 @@
 #include <Wire.h>  // protocolo de comunicaciones I2C
 
 // pines donde conectamos
-#define SDA 13  // datos
-#define SCL 14  // reloj
+#define SDA 22  // datos
+#define SCL 23  // reloj
 #define ADDR 0x27 // establecemos la dirección de memoria donde est-a conectado el display LCD.Otra es 0x3F (ver instrucciones del aparato)
 
 // definimos variable (constructor) lcd, del tipo LiquidCrystal_I2C
