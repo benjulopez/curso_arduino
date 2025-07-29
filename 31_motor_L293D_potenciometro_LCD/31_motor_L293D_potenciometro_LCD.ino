@@ -1,31 +1,32 @@
-// pantalla LCD //
-// incluimos librerias necesarias
+// librerias necesarias para pantalla LCD
 #include <LiquidCrystal_I2C.h>  // controlador LCD
 #include <Wire.h>  // protocolo de comunicaciones I2C
 
-// pines donde conectamos
+// pines donde conectamos el LCD
 #define SDA 22  // datos
 #define SCL 23  // reloj
-#define ADDR 0x27 // establecemos la dirección de memoria donde est-a conectado el display LCD.Otra es 0x3F (ver instrucciones del aparato)
+#define ADDR 0x27 // dirección de memoria donde está conectado el display LCD.Otra es 0x3F (ver instrucciones del aparato)
 
 // definimos variable (constructor) lcd, del tipo LiquidCrystal_I2C
 LiquidCrystal_I2C lcd(ADDR, 16, 2); // variable_dir_memoria, columnas, filas
+
+// MOTOR
 
 #define VELOCIDAD 14  // enable 1,2
 #define DIRPIN_1 12  // input 1
 #define DIRPIN_2 13  // input 2
 
-//estados
+// estados
 #define PARO 0
 #define DERECHA 1
 #define IZQUIERDA 2 
 
-//diodos leds
+// diodos leds
 #define LED_VERDE 15
 #define LED_ROJO 0
 #define LED_AZUL 2
 
-//potenciometro
+// potenciometro
 #define POT 32
 
 
