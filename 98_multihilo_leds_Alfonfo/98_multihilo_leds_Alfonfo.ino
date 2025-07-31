@@ -7,7 +7,7 @@ TaskHandle_t Tarea1; // Tarea1 parpadeo LED 1 Segundo
 
 void loop0(void *parameter);  //prototipo de la funcion
 void loop1(void *parameter);  //prototipo de la funcion
-/* Alfonso las pone porque en su entorno de desarrollo es necesario, en el IDE Arduino no es necesario */
+// Alfonso las pone porque en su entorno de desarrollo es necesario, en el IDE Arduino no es necesario
 
 void setup()
 {

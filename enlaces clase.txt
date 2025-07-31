@@ -17,3 +17,11 @@ https://github.com/benjulopez/curso_arduino
 -----------------------------------------------
 
 www.descubrearduino.com
+
+
+https://blynk.io/
+
+
+https://randomnerdtutorials.com/esp32-ota-elegantota-arduino/
+
+https://lastminuteengineers.com/esp32-ota-web-updater-arduino-ide/
